@@ -98,9 +98,7 @@ const Read = () => {
         })}
       </Table>
 
-      <Link to={"/"}>
-        <Button variant="dark">Create User</Button>
-      </Link>
+    
     </>
   );
 };

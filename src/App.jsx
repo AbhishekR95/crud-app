@@ -4,12 +4,14 @@ import "./App.css";
 import Read from "./Read";
 import Create from "./Create";
 import Update from "./Update";
+import Header from "./Header";
 
 function App() {
   return (
     <>
+      <Header />
       <Routes>
-        <Route path="/" element={<Create />} />
+        <Route path="/crud-app" element={<Create />} />
         <Route path="/read" element={<Read />} />
         <Route path="/update" element={<Update />} />
       </Routes>

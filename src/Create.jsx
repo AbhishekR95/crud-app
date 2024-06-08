@@ -25,7 +25,6 @@ const Create = () => {
   };
   return (
     <>
-     
       <h1>Create User</h1>
       <Form onSubmit={(e) => handleCreate(e)}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -51,11 +50,7 @@ const Create = () => {
         </Button>
       </Form>
       <br />
-      <Link to={"/read"}>
-        <Button className="margin-top" variant="dark">
-          Show users
-        </Button>
-      </Link>
+      
     </>
   );
 };

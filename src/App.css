@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+/* CSS */
+
+.navbar {
+  display: flex;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+}
+
+.navbar button {
+  margin: 1px 5px;
+}
